@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Little Memories ♡</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff7f8;
+  color: #654b53;
+  font-family: 'DM Sans', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 65px 20px 45px;
+  background: linear-gradient(135deg, #f8dce5, #fff0f3);
+}
+
+.heart { color: #c77e97; font-size: 25px; }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(38px, 8vw, 58px);
+  font-weight: 500;
+  margin: 12px 0;
+  color: #86596a;
+}
+
+.subtitle {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #a47b89;
+}
+
+section {
+  max-width: 850px;
+  margin: auto;
+  padding: 45px 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #956477;
+  margin-bottom: 12px;
+}
+
+.intro {
+  text-align: center;
+  color: #a58a92;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.photo {
+  background: white;
+  padding: 10px 10px 18px;
+  box-shadow: 0 5px 20px #d9b9c433;
+  transform: rotate(-1deg);
+}
+
+.photo:nth-child(even) { transform: rotate(1deg); }
+
+.photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: #f7e5eb;
+}
+
+.photo p {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #946d7b;
+  margin: 12px 0 0;
+  font-size: 15px;
+}
+
+.letter {
+  background: #fff;
+  padding: 30px 25px;
+  border: 1px solid #f1dce3;
+  line-height: 2;
+  font-size: 14px;
+  box-shadow: 0 5px 20px #d9b9c422;
+}
+
+.letter p { margin: 0 0 15px; }
+
+.music {
+  text-align: center;
+  background: #f9e8ed;
+  border-radius: 18px;
+  padding: 25px 18px;
+}
+
+.music p {
+  font-size: 13px;
+  color: #987583;
+}
+
+iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 152px;
+  border: 0;
+  border-radius: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 15px 45px;
+  color: #b18b98;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+@media (max-width: 420px) {
+  .gallery { gap: 12px; }
+  .photo { padding: 7px 7px 13px; }
+  .photo p { font-size: 13px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="heart">♡ ♡ ♡</div>
+  <h1>Our Little Memories</h1>
+  <div class="subtitle">A LITTLE WORLD THAT BELONGS TO US</div>
+</header>
+
+<section>
+  <h2>Our story ♡</h2>
+  <p class="intro">
+    Every little moment with you deserves a place here.
+    A collection of memories, feelings and everything in between.
+  </p>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="photos/photo1.jpg" alt="Our memory 1">
+      <p>A little moment ♡</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo2.jpg" alt="Our memory 2">
+      <p>My favourite person</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo3.jpg" alt="Our memory 3">
+      <p>Just us</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo4.jpg" alt="Our memory 4">
+      <p>Forever in my heart</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo5.jpg" alt="Our memory 5">
+      <p>One of my favourites</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo6.jpg" alt="Our memory 6">
+      <p>Our little world</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo7.jpg" alt="Our memory 7">
+      <p>And many more...</p>
+    </div>
+    <div class="photo">
+      <img src="photos/photo8.jpg" alt="Our memory 8">
+      <p>To be continued ♡</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>A little letter</h2>
+  <div class="letter">
+    <p>To my favourite person, ♡</p>
+    <p>
+      I don't know how many memories we'll make in the future,
+      but I hope this little corner of the internet keeps a
+      piece of every beautiful moment we've shared.
+    </p>
+    <p>
+      Even the simplest moments mean something to me.
+      Thank you for being part of my story.
+    </p>
+    <p>With love, always ♡</p>
+  </div>
+</section>
+
+<section>
+  <h2>Our song ♡</h2>
+  <div class="music">
+    <div class="heart">♪</div>
+    <p>Sedikit Lebih Lama — Pica Kota</p>
+    <iframe
+      src="https://open.spotify.com/embed/track/01tIOCXKf5zlXTW34Nm0Tw?utm_source=generator"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  made with love, just for us ♡
+  <br><br>
+  our little story is still being written...
+</footer>
+
+</body>
+</html>
